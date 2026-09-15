@@ -69,6 +69,31 @@ input {
 .sidebar {
   grid-row: 1/3;
   border: solid orange 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #1992d4;
+}
+.logo {
+  display: flex;
+  padding: 15px;
+  gap: 14px;
+}
+.sidebar * {
+  color: white;
+}
+.logo-text {
+  font-size: 24px;
+}
+.sidebar-top > * {
+  display: flex;
+  padding: 5px 15px;
+  gap: 14px;
+}
+.sidebar-bottom > * {
+  display: flex;
+  padding: 5px 15px;
+  gap: 14px;
 }
 .header {
   border: green solid 2px;
