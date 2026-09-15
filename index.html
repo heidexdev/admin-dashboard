@@ -6,7 +6,416 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo">
+          <img
+            class="logo-icon"
+            src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/view-dashboard.svg"
+            alt=""
+          />
+          <p class="logo-text">Dashboard</p>
+        </div>
+
+        <div class="sidebar-top">
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/home.svg"
+              alt=""
+            />
+            <p class="item-text">Home</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/account.svg"
+              alt=""
+            />
+            <p class="item-text">Profile</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/message.svg"
+              alt=""
+            />
+            <p class="item-text">Messages</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/history.svg"
+              alt=""
+            />
+            <p class="item-text">History</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/file-document.svg"
+              alt=""
+            />
+            <p class="item-text">Tasks</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/account-group.svg"
+              alt=""
+            />
+            <p class="item-text">Communities</p>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/cog.svg"
+              alt=""
+            />
+            <p class="item-text">Settings</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/help-box.svg"
+              alt=""
+            />
+            <p class="item-text">Support</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img
+              class="item-icon"
+              src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/shield-check.svg"
+              alt=""
+            />
+            <p class="item-text">Privacy</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Header -->
+      <div class="header">
+        <div class="header-searchbar">
+          <img
+            src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/magnify.svg"
+            alt=""
+            class="search-icon"
+          />
+          <input type="text" class="search-input" />
+        </div>
+
+        <div class="header-profile">
+          <img
+            src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/bell-outline.svg"
+            alt=""
+            class="notification-icon"
+          />
+
+          <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="Morgan Oakley"
+            class="profile-icon"
+          />
+
+          <p class="name">Morgan Oakley</p>
+        </div>
+
+        <div class="header-user">
+          <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="Morgan Oakley"
+            class="user-icon"
+          />
+
+          <div class="user-info">
+            <p class="greeting">Hi there,</p>
+            <p class="username">Morgan Oakley (@morgan)</p>
+          </div>
+        </div>
+
+        <div class="header-options">
+          <p class="header-option">New</p>
+          <p class="header-option">Upload</p>
+          <p class="header-option">Share</p>
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div class="main">
+        <!-- Projects -->
+        <div class="main-content">
+          <h2 class="content-header">Your Projects</h2>
+
+          <div class="main-contents">
+            <div class="card">
+              <h3 class="card-header">Super Cool Project</h3>
+              <p class="content-text">
+                Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                nibh erat, id facilisis felis accumsan nec.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-header">Less Cool Project</h3>
+              <p class="content-text">
+                Nullam condimentum tellus lacus, in accumsan elit maximus ac.
+                Donec hendrerit sodales congue. Quisque sed dolor tincidunt,
+                consectetur sapien et, facilisis dolor.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-header">Impossible App</h3>
+              <p class="content-text">
+                In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+                placerat velit sagittis id.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-header">Easy Peasy App</h3>
+              <p class="content-text">
+                Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+                urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+                commodo.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-header">Ad Blocker</h3>
+              <p class="content-text">
+                Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-header">Money Maker</h3>
+              <p class="content-text">
+                Praesent convallis, libero quis congue elementum, nunc ante
+                faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                Pellentesque mollis nec sem vel aliquam.
+              </p>
+
+              <div class="card-options">
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/star-plus-outline.svg"
+                  alt="Favorite project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/eye-plus-outline.svg"
+                  alt="View project"
+                  class="card-option"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/source-branch.svg"
+                  alt="Share project"
+                  class="card-option"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="main-extra">
+          <!-- Announcements -->
+          <div class="extra-top">
+            <h2 class="extra-top-header">Announcements</h2>
+
+            <div class="extra-top-content">
+              <div class="announcement">
+                <h3 class="announcement-header">Site Maintenance</h3>
+                <p class="announcements-text">
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue.
+                </p>
+              </div>
+
+              <div class="announcement">
+                <h3 class="announcement-header">Community Share Day</h3>
+                <p class="announcements-text">
+                  Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+                  Aliquam dictum accumsan porttitor.
+                </p>
+              </div>
+
+              <div class="announcement">
+                <h3 class="announcement-header">Updated Privacy Policy</h3>
+                <p class="announcements-text">
+                  Phasellus efficitur elit eget consectetur, eget condimentum
+                  ante auctor. Cras fringilla sagittis sem in mattis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trending -->
+          <div class="extra-bottom">
+            <h2 class="extra-bottom-header">Trending</h2>
+
+            <div class="trending">
+              <div class="trending-item">
+                <img
+                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  alt="Tegan"
+                  class="trending-icon"
+                />
+
+                <div>
+                  <p class="trending-username">@tegan</p>
+                  <p class="trending-text">World Peace Builder</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  alt="Morgan"
+                  class="trending-icon"
+                />
+
+                <div>
+                  <p class="trending-username">@morgan</p>
+                  <p class="trending-text">Super Cool Project</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Kendall"
+                  class="trending-icon"
+                />
+
+                <div>
+                  <p class="trending-username">@kendall</p>
+                  <p class="trending-text">Life Changing App</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img
+                  src="https://randomuser.me/api/portraits/men/75.jpg"
+                  alt="Alex"
+                  class="trending-icon"
+                />
+
+                <div>
+                  <p class="trending-username">@alex</p>
+                  <p class="trending-text">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
