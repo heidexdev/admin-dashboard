@@ -109,13 +109,28 @@ input {
   grid-template-columns: 2fr 1fr 3fr;
 }
 .header-user {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
 .header-options {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .main {
   border: skyblue solid 2px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #E2E8F0;
+}
+.main-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+}
+.card {
+  border: 1px gray solid;
+  padding: 15px 10px ;
+  margin: 15px 15px;
+  background-color: #FFFFFF;
 }
