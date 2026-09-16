@@ -191,7 +191,7 @@ input {
 }
 
 .search-input {
-  width: 100%;
+  width: 80%;
   height: 32px;
 
   border: none;
@@ -214,6 +214,9 @@ input {
   align-items: center;
 
   gap: 18px;
+}
+.notification-icon {
+  justify-self: end;
 }
 
 .name {
